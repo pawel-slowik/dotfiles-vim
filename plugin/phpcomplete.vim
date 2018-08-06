@@ -1,0 +1,1 @@
+let g:phpcomplete_complete_for_unknown_classes=1
