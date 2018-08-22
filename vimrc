@@ -149,6 +149,8 @@ nnoremap <silent> <Leader>px "*p
 nnoremap <silent> <Leader>Px "*P
 nnoremap <silent> <Leader>pX "+p
 nnoremap <silent> <Leader>PX "+P
+nnoremap <silent> <Leader>xx :put *<CR>
+nnoremap <silent> <Leader>xX :put +<CR>
 
 " plugin mappings
 noremap <F7> :Gblame<CR>
