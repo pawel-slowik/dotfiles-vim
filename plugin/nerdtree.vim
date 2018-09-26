@@ -1,5 +1,6 @@
 let NERDTreeMinimalUI=1
 let NERDTreeRespectWildIgnore=1
+let NERDTreeIgnore=['^__pycache__$']
 let NERDTreeDirArrowExpandable='▶'
 let NERDTreeDirArrowCollapsible='▼'
 " make the status line path relative to $HOME

@@ -68,7 +68,7 @@ set clipboard=""
 set fillchars+=vert:\ 
 
 " ignore not editable files
-set wildignore+=*.z,*.png,*.jpg,*.gif,*.min.js,*.min.css,*.pyc
+set wildignore+=*.z,*.png,*.jpg,*.gif,*.min.js,*.min.css,*.pyc,__pycache__/
 
 " configure searching in files
 set grepprg=grep\ --recursive\ --line-number
