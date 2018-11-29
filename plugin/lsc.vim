@@ -12,6 +12,9 @@ let g:lsc_auto_map["Completion"] = "omnifunc"
 " set up default key bindings
 let g:lsc_auto_map["defaults"] = v:true
 
+" disable the PreviousReference binding because it conflicts with ctrlp.vim
+let g:lsc_auto_map["PreviousReference"] = ""
+
 " use the PHP LSP server via TCP instead of stdin/stdout; this allows setups
 " like running the server in a docker container or in a VM
 if $PHP_LSP_SERVER !=# ""
