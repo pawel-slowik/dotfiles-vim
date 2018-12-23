@@ -48,6 +48,9 @@ set wildmenu
 " do not redraw while executing plugin functions
 set lazyredraw
 
+" immediately timeout on key codes - <Esc> ends insert mode instantaneously
+set ttimeout ttimeoutlen=0
+
 " disable mouse
 set mouse=
 
