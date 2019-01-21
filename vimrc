@@ -157,6 +157,8 @@ nnoremap <silent> <Leader>pX "+p
 nnoremap <silent> <Leader>PX "+P
 nnoremap <silent> <Leader>xx :put *<CR>
 nnoremap <silent> <Leader>xX :put +<CR>
+nnoremap <A-p> :wincmd p<CR>
+inoremap <A-p> <C-o>:wincmd p<CR>
 
 " plugin mappings
 noremap <F7> :Gblame<CR>
