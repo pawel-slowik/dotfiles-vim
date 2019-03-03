@@ -1,5 +1,5 @@
 set statusline=%<
-set statusline+=%#StatusLineGit#%(%{colorizedstatus#GitInfo()}\ %)%*
+set statusline+=%#StatusLineGit#%(\ %{colorizedstatus#GitInfo()}\ %)%*
 set statusline+=%#StatusLinePath#%(\ %{colorizedstatus#PathInfo()}\ %)%*
 set statusline+=%#StatusLineCurrentFunction#%(\ %{colorizedstatus#FunctionInfo()}\ %)%*
 set statusline+=%=%h%m%r
