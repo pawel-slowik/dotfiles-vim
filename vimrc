@@ -170,12 +170,6 @@ nnoremap <silent> <F3> :call ToggleQuickfixList()<CR>
 nnoremap <silent> <F4> :call ToggleLocationList()<CR>
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
-nnoremap <silent> <Leader>sc :SlimuxREPLConfigure<CR>
-nnoremap <silent> <Leader>sl :SlimuxREPLSendLine<CR>
-vnoremap <silent> <Leader>ss :SlimuxREPLSendSelection<CR>
-nnoremap <silent> <Leader>ss :SlimuxREPLSendSelection<CR>
-nnoremap <silent> <Leader>sm :SlimuxREPLSendParagraph<CR>
-nnoremap <silent> <Leader>sb :SlimuxREPLSendBuffer<CR>
 vnoremap <silent> <Leader>f :call find#FindVisualSelection()<CR>
 nnoremap <silent> <Leader>f :call find#FindWord()<CR>
 vnoremap <silent> <Leader>e :call execute#ExecuteVisualSelection()<CR>

@@ -5,7 +5,6 @@ https://github.com/ctrlpvim/ctrlp.vim
 https://github.com/davidhalter/jedi-vim
 https://github.com/AndrewRadev/linediff.vim
 https://github.com/scrooloose/nerdtree
-https://github.com/epeli/slimux
 https://github.com/ervandew/supertab
 https://github.com/tomtom/tcomment_vim
 https://github.com/SirVer/ultisnips
