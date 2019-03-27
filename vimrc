@@ -161,12 +161,12 @@ nnoremap <A-p> :wincmd p<CR>
 inoremap <A-p> <C-o>:wincmd p<CR>
 
 " plugin mappings
-nnoremap <F9> :NERDTreeToggle<CR>
+nnoremap <A-t> :NERDTreeToggle<CR>
 nnoremap <C-U> :CtrlPMRUFiles<CR>
 nnoremap <Leader>w :Bdelete<CR>
 nnoremap <Leader>q :qall<CR>
-nnoremap <silent> <F3> :call ToggleQuickfixList()<CR>
-nnoremap <silent> <F4> :call ToggleLocationList()<CR>
+nnoremap <silent> <A-q> :call ToggleQuickfixList()<CR>
+nnoremap <silent> <A-l> :call ToggleLocationList()<CR>
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 vnoremap <silent> <Leader>f :call find#FindVisualSelection()<CR>
