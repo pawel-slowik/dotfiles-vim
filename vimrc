@@ -161,7 +161,6 @@ nnoremap <A-p> :wincmd p<CR>
 inoremap <A-p> <C-o>:wincmd p<CR>
 
 " plugin mappings
-noremap <F7> :Gblame<CR>
 nnoremap <F9> :NERDTreeToggle<CR>
 nnoremap <C-U> :CtrlPMRUFiles<CR>
 nnoremap <Leader>w :Bdelete<CR>
