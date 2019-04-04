@@ -8,7 +8,6 @@ https://github.com/scrooloose/nerdtree
 https://github.com/ervandew/supertab
 https://github.com/tomtom/tcomment_vim
 https://github.com/SirVer/ultisnips
-https://github.com/moll/vim-bbye
 https://github.com/tpope/vim-fugitive
 https://github.com/natebosch/vim-lsc
 https://github.com/honza/vim-snippets

@@ -163,7 +163,6 @@ inoremap <A-p> <C-o>:wincmd p<CR>
 " plugin mappings
 nnoremap <A-t> :NERDTreeToggle<CR>
 nnoremap <C-U> :CtrlPMRUFiles<CR>
-nnoremap <Leader>w :Bdelete<CR>
 nnoremap <Leader>q :qall<CR>
 nnoremap <silent> <A-q> :call ToggleQuickfixList()<CR>
 nnoremap <silent> <A-l> :call ToggleLocationList()<CR>
