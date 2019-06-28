@@ -94,7 +94,6 @@ let g:loaded_netrwPlugin=1
 let no_plugin_maps=1
 
 " colors
-set t_Co=256
 set background=dark
 colorscheme desert256-stripped
 
