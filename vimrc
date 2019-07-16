@@ -146,6 +146,10 @@ if &term ==# 'xterm' || &term ==# 'xterm-256color'
 	set t_RV=
 endif
 
+" use the spacebar as the leader key
+noremap <Space> <NOP>
+let mapleader = " "
+
 " mappings
 nnoremap <Leader>n :bn<CR>
 nnoremap <Leader>b :buffers<CR>:buffer<Space>
