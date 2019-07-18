@@ -23,3 +23,5 @@ if $PHP_LSP_SERVER !=# ""
 	let s:hooks = {"initialize": {"rootPath": {method, params -> getcwd()}}}
 	let g:lsc_server_commands["php"] = {"command": $PHP_LSP_SERVER, "message_hooks": s:hooks}
 endif
+
+let g:lsc_server_commands["python"] = "pyls"

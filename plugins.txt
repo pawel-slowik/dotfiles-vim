@@ -2,7 +2,6 @@ https://github.com/w0rp/ale
 https://github.com/rhysd/conflict-marker.vim
 https://github.com/FelikZ/ctrlp-py-matcher
 https://github.com/ctrlpvim/ctrlp.vim
-https://github.com/davidhalter/jedi-vim
 https://github.com/AndrewRadev/linediff.vim
 https://github.com/scrooloose/nerdtree
 https://github.com/ervandew/supertab

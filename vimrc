@@ -176,11 +176,6 @@ nmap <silent> <C-j> <Plug>(ale_next_wrap)
 vnoremap <silent> <Leader>f :call find#FindVisualSelection()<CR>
 nnoremap <silent> <Leader>f :call find#FindWord()<CR>
 vnoremap <silent> <Leader>e :call execute#ExecuteVisualSelection()<CR>
-" for Python, use Jedi instead of tags for jumping to definitions
-augroup JediGoTo
-	autocmd!
-	autocmd FileType python nnoremap <silent> <buffer> <C-]> :call jedi#goto()<CR>
-augroup end
 
 " toggle paste mode with Ctrl+Insert
 set pastetoggle=[2;5~
