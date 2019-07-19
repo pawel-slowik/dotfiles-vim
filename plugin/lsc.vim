@@ -27,4 +27,5 @@ if $PHP_LSP_SERVER !=# ""
 	let g:lsc_server_commands["php"] = {"command": $PHP_LSP_SERVER, "message_hooks": s:hooks}
 endif
 
-let g:lsc_server_commands["python"] = "pyls"
+" pyls spams stderr with messages about missing optional dependencies
+let g:lsc_server_commands["python"] = {"command": "pyls", "suppress_stderr": v:true}
