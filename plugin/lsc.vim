@@ -9,6 +9,9 @@ let g:lsc_enable_apply_edit = v:false
 let g:lsc_enable_autocomplete = v:false
 let g:lsc_auto_map["Completion"] = "omnifunc"
 
+" reference highlighting is distracting
+let g:lsc_reference_highlights = v:false
+
 " set up default key bindings
 let g:lsc_auto_map["defaults"] = v:true
 
