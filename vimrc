@@ -171,8 +171,6 @@ nnoremap <C-U> :CtrlPMRUFiles<CR>
 nnoremap <Leader>q :qall<CR>
 nnoremap <silent> <A-q> :call ToggleQuickfixList()<CR>
 nnoremap <silent> <A-l> :call ToggleLocationList()<CR>
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
-nmap <silent> <C-j> <Plug>(ale_next_wrap)
 vnoremap <silent> <Leader>f :call find#FindVisualSelection()<CR>
 nnoremap <silent> <Leader>f :call find#FindWord()<CR>
 vnoremap <silent> <Leader>e :call execute#ExecuteVisualSelection()<CR>
