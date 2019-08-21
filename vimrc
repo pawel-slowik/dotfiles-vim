@@ -169,8 +169,8 @@ inoremap <C-y> <C-o>:normal _dd<CR>
 nnoremap <A-t> :NERDTreeToggle<CR>
 nnoremap <C-U> :CtrlPMRUFiles<CR>
 nnoremap <Leader>q :qall<CR>
-nnoremap <silent> <A-q> :call ToggleQuickfixList()<CR>
-nnoremap <silent> <A-l> :call ToggleLocationList()<CR>
+nnoremap <silent> <expr> <A-l> (getloclist(0, {"winid": 0})["winid"] > 0 ? ":lclose" : ":lopen") . "<CR>"
+nnoremap <silent> <expr> <A-q> (getqflist({"winid": 0})["winid"] > 0 ? ":cclose" : ":botright copen") . "<CR>"
 vnoremap <silent> <Leader>f :call find#FindVisualSelection()<CR>
 nnoremap <silent> <Leader>f :call find#FindWord()<CR>
 vnoremap <silent> <Leader>e :call execute#ExecuteVisualSelection()<CR>

@@ -11,7 +11,6 @@ https://github.com/natebosch/vim-lsc
 https://github.com/honza/vim-snippets
 https://github.com/tpope/vim-surround
 https://github.com/tmux-plugins/vim-tmux-focus-events
-https://github.com/milkypostman/vim-togglelist
 https://github.com/pawel-slowik/vim-colorized-status
 https://github.com/pawel-slowik/vim-current-function
 https://github.com/pawel-slowik/vim-cursor-color
