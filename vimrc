@@ -162,8 +162,8 @@ nnoremap <silent> <Leader>xx :put *<CR>
 nnoremap <silent> <Leader>xX :put +<CR>
 nnoremap <A-p> :wincmd p<CR>
 inoremap <A-p> <C-o>:wincmd p<CR>
-nnoremap <C-y> _dd
-inoremap <C-y> <C-o>:normal _dd<CR>
+nnoremap <C-y> "_dd
+inoremap <C-y> <C-o>:normal "_dd<CR>
 nnoremap <Leader>q :qall<CR>
 nnoremap <silent> <expr> <A-l> (getloclist(0, {"winid": 0})["winid"] > 0 ? ":lclose" : ":lopen") . "<CR>"
 nnoremap <silent> <expr> <A-q> (getqflist({"winid": 0})["winid"] > 0 ? ":cclose" : ":botright copen") . "<CR>"
