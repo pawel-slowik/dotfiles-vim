@@ -82,7 +82,7 @@ set grepprg+=\ --binary-files=without-match
 " exclude VCS directories
 set grepprg+=\ --exclude-dir=.git\ --exclude-dir=.svn
 " exclude utility / editor files
-set grepprg+=\ --exclude=tags\ --exclude='*~'\ --exclude='*.swp'\ --exclude-dir=.mypy_cache
+set grepprg+=\ --exclude=tags\ --exclude='*~'\ --exclude='*.swp'\ --exclude-dir=.mypy_cache\ --exclude=.php_cs.cache
 " exclude generated files
 set grepprg+=\ --exclude='*.min.js'\ --exclude='*.min.css'
 
