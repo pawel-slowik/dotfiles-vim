@@ -163,6 +163,7 @@ nnoremap <silent> <Leader>xX :put +<CR>
 nnoremap <A-p> :wincmd p<CR>
 inoremap <A-p> <C-o>:wincmd p<CR>
 nnoremap <C-y> "_dd
+vnoremap <C-y> "_d
 inoremap <C-y> <C-o>:normal "_dd<CR>
 nnoremap <Leader>q :qall<CR>
 nnoremap <Leader>m :make<CR>
