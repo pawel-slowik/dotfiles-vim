@@ -36,6 +36,9 @@ set noexpandtab
 " enable filetype specific plugins and indentation rules
 filetype plugin indent on
 
+" show line numbers
+set number
+
 " always show a status line
 set laststatus=2
 
