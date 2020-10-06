@@ -170,6 +170,7 @@ vnoremap <C-y> "_d
 inoremap <C-y> <C-o>:normal "_dd<CR>
 nnoremap <Leader>q :qall<CR>
 nnoremap <Leader>m :make<CR>
+nnoremap <Leader>w :bp \| bd #<CR>
 nnoremap <silent> <expr> <A-l> (getloclist(0, {"winid": 0})["winid"] > 0 ? ":lclose" : ":lopen") . "<CR>"
 nnoremap <silent> <expr> <A-q> (getqflist({"winid": 0})["winid"] > 0 ? ":cclose" : ":botright copen") . "<CR>"
 
