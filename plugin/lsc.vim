@@ -21,10 +21,7 @@ let g:lsc_auto_map["PreviousReference"] = ""
 " use the PHP LSP server via TCP instead of stdin/stdout; this allows setups
 " like running the server in a docker container or in a VM
 if $PHP_LSP_SERVER !=# ""
-	" server versions older than 5.4.4 (2018-11-11) don't support rootUri,
-	" only rootPath
-	let s:hooks = {"initialize": {"rootPath": {method, params -> getcwd()}}}
-	let g:lsc_server_commands["php"] = {"command": $PHP_LSP_SERVER, "message_hooks": s:hooks}
+	let g:lsc_server_commands["php"] = {"command": $PHP_LSP_SERVER}
 endif
 
 " pyls spams stderr with messages about missing optional dependencies
