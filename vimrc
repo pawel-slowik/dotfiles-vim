@@ -185,6 +185,9 @@ nnoremap <Leader>w :bp \| bd #<CR>
 nnoremap <silent> <expr> <A-l> (getloclist(0, {"winid": 0})["winid"] > 0 ? ":lclose" : ":lopen") . "<CR>"
 nnoremap <silent> <expr> <A-q> (getqflist({"winid": 0})["winid"] > 0 ? ":cclose" : ":botright copen") . "<CR>"
 
+" reuse previous commit message
+nnoremap <silent> <Leader>gr :0read !git show -s --format=format:'\%B'<CR>
+
 " toggle paste mode with Ctrl+Insert
 set pastetoggle=[2;5~
 
