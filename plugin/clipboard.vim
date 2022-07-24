@@ -17,3 +17,13 @@ if getenv('DISPLAY') != v:null
 	nnoremap <silent> <Leader>xX :read !xclip -o -selection CLIPBOARD<CR>
 	finish
 endif
+
+if has('mac')
+	nnoremap <silent> <Leader>px :let @" = system("pbpaste")<CR>p
+	nnoremap <silent> <Leader>Px :let @" = system("pbpaste")<CR>P
+	nnoremap <silent> <Leader>pX :let @" = system("pbpaste")<CR>p
+	nnoremap <silent> <Leader>PX :let @" = system("pbpaste")<CR>P
+	nnoremap <silent> <Leader>xx :read !pbpaste<CR>
+	nnoremap <silent> <Leader>xX :read !pbpaste<CR>
+	finish
+endif
