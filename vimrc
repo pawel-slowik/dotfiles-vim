@@ -24,6 +24,9 @@ set showbreak=«
 " enable syntax highlighting
 syntax on
 
+" keep diffs smaller by not appending an EOL at the end of file
+set nofixendofline
+
 " copy indent from previous line when starting a new line
 set autoindent
 
