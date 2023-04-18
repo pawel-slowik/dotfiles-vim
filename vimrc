@@ -116,6 +116,9 @@ set omnifunc=syntaxcomplete#Complete
 " http://vim.wikia.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
 set completeopt=longest,menuone
 
+" enable menus in terminal
+runtime! menu.vim
+
 " break lines in text files
 augroup BreakLines
 	autocmd!
@@ -156,6 +159,9 @@ endif
 noremap <Space> <NOP>
 let mapleader = " "
 
+" for use with mappings that invoke completion mode (menus)
+set wildcharm=<C-Z>
+
 " mappings
 nnoremap <Leader>n :bn<CR>
 nnoremap <Leader>b :buffers<CR>:buffer<Space>
@@ -170,6 +176,8 @@ nnoremap <Leader>m :make<CR>
 nnoremap <Leader>w :bp \| bd #<CR>
 nnoremap <silent> <expr> <A-l> (getloclist(0, {"winid": 0})["winid"] > 0 ? ":lclose" : ":lopen") . "<CR>"
 nnoremap <silent> <expr> <A-q> (getqflist({"winid": 0})["winid"] > 0 ? ":cclose" : ":botright copen") . "<CR>"
+nnoremap <F10> :emenu <C-Z>
+inoremap <F10> <C-O>:emenu <C-Z>
 
 " reuse previous commit message
 nnoremap <silent> <Leader>gr :0read !git show -s --format=format:'\%B'<CR>
