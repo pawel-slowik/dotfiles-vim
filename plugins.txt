@@ -10,7 +10,6 @@ https://github.com/natebosch/vim-lsc
 https://github.com/tpope/vim-surround
 https://github.com/tmux-plugins/vim-tmux-focus-events
 https://github.com/Vimjas/vim-python-pep8-indent
-https://github.com/ap/vim-buftabline
 https://github.com/vim-test/vim-test
 https://github.com/pawel-slowik/vim-colorized-status
 https://github.com/pawel-slowik/vim-current-function
