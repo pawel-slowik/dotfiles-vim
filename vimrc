@@ -4,9 +4,6 @@ set modelines=0
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-" keep a backup file
-set backup
-
 " edit multiple buffers without saving
 set hidden
 
