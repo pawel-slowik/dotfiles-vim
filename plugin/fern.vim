@@ -1,6 +1,9 @@
 " default width of the drawer window
 let g:fern#drawer_width = 42
 
+" hide non-editable files
+let g:fern#default_exclude = "^__pycache__$"
+
 " autocmd required for setting mappings
 augroup fern-custom
 	autocmd! *
